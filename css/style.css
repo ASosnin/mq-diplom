@@ -302,19 +302,19 @@ input {
     background-size: cover;
 }
 
-#tp1 {
+.tp1 {
     background-image: url("../images/trend1.jpg");
 }
 
-#tp2 {
+.tp2 {
     background-image: url("../images/trend2.jpg");
 }
 
-#tp3 {
+.tp3 {
     background-image: url("../images/trend3.jpg");
 }
 
-#tp4 {
+.tp4 {
     background-image: url("../images/trend4.jpg");
 }
 
