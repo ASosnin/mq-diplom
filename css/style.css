@@ -1,6 +1,6 @@
-.popup-block {
-    display: none;
-}
+/*.popup-block {*/
+/*    display: none;*/
+/*}*/
 
 @font-face {
     font-family: "Open-sans";
@@ -24,6 +24,7 @@
 body {
     margin: 0;
     width: 100%;
+    min-width: 320px;
     position: relative;
     font-family: Open-sans, Arial, sans-serif;
 }
@@ -43,13 +44,14 @@ input {
     position: absolute;
 }
 
-.popup-mask {
+.popup-container::before {
+    content: "";
     width: 100%;
     height: 100vh;
     position: fixed;
     background-color: #000000;
     opacity: 0.6;
-    z-index: 3;
+    z-index: -1;
 }
 
 .popup-container {
